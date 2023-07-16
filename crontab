@@ -1,0 +1,9 @@
+@reboot /home/pi/src/iroiroclock/startclock.sh
+
+0 8-20 * * 1-5 /home/pi/src/speaktime/playchime.sh
+30 8-20 * * 1-5 /home/pi/src/speaktime/playchime.sh
+0 8-20 * * 0,6 /home/pi/src/speaktime/playchime.sh
+0 15 * * * /home/pi/src/speaktime/playmusic.sh oosu.mp3
+58 18 * * 0,3,6 /home/pi/src/speaktime/playmusic.sh flure.mp3
+58 18 * * 1,4 /home/pi/src/speaktime/playmusic.sh aoyagi.mp3
+58 18 * * 2,5 /home/pi/src/speaktime/playmusic.sh kaeru.mp3
